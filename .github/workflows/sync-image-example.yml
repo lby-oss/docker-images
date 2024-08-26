@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/flannel/flannel-cni-plugin:v1.4.0-flannel1 docker://registry.cn-hangzhou.aliyuncs.com/lby0816/flannel
+         skopeo copy docker://docker.io/userxy2015/ngnix:latest docker://registry.cn-hangzhou.aliyuncs.com/lby0816/flannel
          
          
          
